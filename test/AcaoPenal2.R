@@ -12,6 +12,7 @@ url <- 'https://api-supremo.lexana.com.br/penal'
 
 # read url and convert to data.frame
 processos <- fromJSON(txt=url)
+#teste de controle de versão
 
 #desnormaliza , transformando em observa'çoes de uma linha sem multivaloracoes
 processos_flat <- unnest(processos)
